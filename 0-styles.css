@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-image: url("/Users/keamogetsemohlala/Desktop/alx-frontend-for-fun/ 0-sprite.png"); /* Use the correct relative path if needed */
+  background-size: cover;
+}
+
+li {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px;
+  border: 1px solid grey;
+  border-radius: 2px;
+}
+
+.icon {
+  display: inline-block;
+  width: 10rem;
+  height: 10rem;
+
+  margin-top: 10px;
+}
+
+/* Positioning the icons individually from the sprite */
+.i-html {
+  background-position: 0 0;
+}
+
+.i-css {
+  background-position: -150px 0;
+}
+
+.i-js {
+  background-position: -300px 0;
+}
